@@ -1,0 +1,48 @@
+# MuHC-Net5 Configuration
+# Paths are relative to project root
+
+base_dir: "."
+data_dir: "data"
+results_dir: "results"
+checkpoints_dir: "checkpoints"
+
+cancers:
+  - BRCA
+  - LUAD
+  - STAD
+  - COAD
+  - LIHC
+  - LGG
+  - LAML
+
+omics_files:
+  mirna: "{cancer}_miRNA_preprocess.csv"
+  meth: "{cancer}_meth_preprocess.csv"
+  mrna: "{cancer}_mRNA_preprocess.csv"
+  clinical: "{cancer}_clinical_delete_process.csv"
+
+ae:
+  hidden_dim: 64
+  lr: 1.0e-3
+  epochs: 200
+  lambda_align: 0.3
+  lambda_orth: 0.4
+  lambda_preserve: 0.3
+  clip_grad_norm: 1.0
+
+hgnn:
+  k_neighbor: 10
+  n_fold: 5
+  patience: 10
+  epochs: 2000
+  drop_p: 0.3
+  lr: 3.0e-4
+  weight_decay: 1.0e-4
+
+grid_search:
+  alpha: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
+  beta: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
+  max_workers: 40
+
+seed: 42
+device: "cuda"
