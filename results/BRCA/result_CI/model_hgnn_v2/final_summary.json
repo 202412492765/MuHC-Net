@@ -1,0 +1,1022 @@
+{
+  "cancer": "BRCA",
+  "run": "result_CI",
+  "n_samples": 749,
+  "n_events": 99,
+  "best_params": {
+    "alpha": 0.4,
+    "beta": 0.5
+  },
+  "best_mean_ci": 0.7568736260732025,
+  "best_std_ci": 0.05404528038610054,
+  "fold_cis": [
+    0.6930946291560103,
+    0.7086614173228346,
+    0.7700617283950617,
+    0.7665427509293681,
+    0.8460076045627376
+  ],
+  "all_combos": [
+    {
+      "alpha": 0.4,
+      "beta": 0.5,
+      "mean_ci": 0.7568736260732025,
+      "std_ci": 0.05404528038610054,
+      "fold_cis": [
+        0.6930946291560103,
+        0.7086614173228346,
+        0.7700617283950617,
+        0.7665427509293681,
+        0.8460076045627376
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.4_B0.5_CI0.6931.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.4_B0.5_CI0.7087.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.4_B0.5_CI0.7701.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.4_B0.5_CI0.7665.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.4_B0.5_CI0.8460.pth"
+      ]
+    },
+    {
+      "alpha": 0.5,
+      "beta": 0.4,
+      "mean_ci": 0.7562698048546002,
+      "std_ci": 0.055019280311547084,
+      "fold_cis": [
+        0.6911764705882353,
+        0.7086614173228346,
+        0.7692901234567902,
+        0.7643122676579925,
+        0.8479087452471483
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.5_B0.4_CI0.6912.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.5_B0.4_CI0.7087.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.5_B0.4_CI0.7693.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.5_B0.4_CI0.7643.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.5_B0.4_CI0.8479.pth"
+      ]
+    },
+    {
+      "alpha": 0.8,
+      "beta": 0.8,
+      "mean_ci": 0.756198816616726,
+      "std_ci": 0.05390077271348501,
+      "fold_cis": [
+        0.6847826086956522,
+        0.7165354330708661,
+        0.7677469135802469,
+        0.7687732342007435,
+        0.8431558935361216
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.8_B0.8_CI0.6848.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.8_B0.8_CI0.7165.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.8_B0.8_CI0.7677.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.8_B0.8_CI0.7688.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.8_B0.8_CI0.8432.pth"
+      ]
+    },
+    {
+      "alpha": 0.3,
+      "beta": 0.6,
+      "mean_ci": 0.755470380033507,
+      "std_ci": 0.05465885606270645,
+      "fold_cis": [
+        0.6879795396419437,
+        0.7086614173228346,
+        0.7700617283950617,
+        0.7665427509293681,
+        0.844106463878327
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.3_B0.6_CI0.6880.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.3_B0.6_CI0.7087.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.3_B0.6_CI0.7701.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.3_B0.6_CI0.7665.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.3_B0.6_CI0.8441.pth"
+      ]
+    },
+    {
+      "alpha": 0.2,
+      "beta": 0.7,
+      "mean_ci": 0.7553608778062083,
+      "std_ci": 0.0538093224517868,
+      "fold_cis": [
+        0.6898976982097187,
+        0.7086614173228346,
+        0.7692901234567902,
+        0.7657992565055762,
+        0.8431558935361216
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.2_B0.7_CI0.6899.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.2_B0.7_CI0.7087.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.2_B0.7_CI0.7693.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.2_B0.7_CI0.7658.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.2_B0.7_CI0.8432.pth"
+      ]
+    },
+    {
+      "alpha": 0.7,
+      "beta": 0.9,
+      "mean_ci": 0.755077540692406,
+      "std_ci": 0.05438733196817071,
+      "fold_cis": [
+        0.6815856777493606,
+        0.7165354330708661,
+        0.7685185185185185,
+        0.7665427509293681,
+        0.8422053231939164
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.7_B0.9_CI0.6816.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.7_B0.9_CI0.7165.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.7_B0.9_CI0.7685.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.7_B0.9_CI0.7665.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.7_B0.9_CI0.8422.pth"
+      ]
+    },
+    {
+      "alpha": 0.9,
+      "beta": 0.7,
+      "mean_ci": 0.7543657949139123,
+      "std_ci": 0.052740327056754334,
+      "fold_cis": [
+        0.6835038363171355,
+        0.715660542432196,
+        0.7669753086419753,
+        0.7672862453531598,
+        0.8384030418250951
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.9_B0.7_CI0.6835.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.9_B0.7_CI0.7157.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.9_B0.7_CI0.7670.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.9_B0.7_CI0.7673.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.9_B0.7_CI0.8384.pth"
+      ]
+    },
+    {
+      "alpha": 0.1,
+      "beta": 0.8,
+      "mean_ci": 0.7542939344800547,
+      "std_ci": 0.053880360660005136,
+      "fold_cis": [
+        0.6886189258312021,
+        0.7077865266841645,
+        0.7692901234567902,
+        0.7635687732342007,
+        0.8422053231939164
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.1_B0.8_CI0.6886.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.1_B0.8_CI0.7078.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.1_B0.8_CI0.7693.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.1_B0.8_CI0.7636.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.1_B0.8_CI0.8422.pth"
+      ]
+    },
+    {
+      "alpha": 0.3,
+      "beta": 0.5,
+      "mean_ci": 0.7541608320367273,
+      "std_ci": 0.05468772054719669,
+      "fold_cis": [
+        0.6847826086956522,
+        0.7042869641294838,
+        0.7824074074074074,
+        0.762825278810409,
+        0.8365019011406845
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.3_B0.5_CI0.6848.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.3_B0.5_CI0.7043.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.3_B0.5_CI0.7824.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.3_B0.5_CI0.7628.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.3_B0.5_CI0.8365.pth"
+      ]
+    },
+    {
+      "alpha": 0.7,
+      "beta": 0.2,
+      "mean_ci": 0.7541370713147622,
+      "std_ci": 0.051606810361328824,
+      "fold_cis": [
+        0.6918158567774936,
+        0.7077865266841645,
+        0.7700617283950617,
+        0.7635687732342007,
+        0.8374524714828897
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.7_B0.2_CI0.6918.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.7_B0.2_CI0.7078.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.7_B0.2_CI0.7701.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.7_B0.2_CI0.7636.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.7_B0.2_CI0.8375.pth"
+      ]
+    },
+    {
+      "alpha": 0.6,
+      "beta": 0.3,
+      "mean_ci": 0.7540899704248798,
+      "std_ci": 0.05161179361667946,
+      "fold_cis": [
+        0.6924552429667519,
+        0.7069116360454943,
+        0.7700617283950617,
+        0.7635687732342007,
+        0.8374524714828897
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.6_B0.3_CI0.6925.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.6_B0.3_CI0.7069.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.6_B0.3_CI0.7701.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.6_B0.3_CI0.7636.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.6_B0.3_CI0.8375.pth"
+      ]
+    },
+    {
+      "alpha": 0.8,
+      "beta": 0.1,
+      "mean_ci": 0.7539699974194509,
+      "std_ci": 0.05258509822987253,
+      "fold_cis": [
+        0.6892583120204604,
+        0.7077865266841645,
+        0.7708333333333334,
+        0.7635687732342007,
+        0.8384030418250951
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.8_B0.1_CI0.6893.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.8_B0.1_CI0.7078.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.8_B0.1_CI0.7708.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.8_B0.1_CI0.7636.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.8_B0.1_CI0.8384.pth"
+      ]
+    },
+    {
+      "alpha": 0.5,
+      "beta": 0.3,
+      "mean_ci": 0.7538105148296245,
+      "std_ci": 0.053002200028261164,
+      "fold_cis": [
+        0.6854219948849105,
+        0.705161854768154,
+        0.7824074074074074,
+        0.7643122676579925,
+        0.8317490494296578
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.5_B0.3_CI0.6854.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.5_B0.3_CI0.7052.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.5_B0.3_CI0.7824.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.5_B0.3_CI0.7643.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.5_B0.3_CI0.8317.pth"
+      ]
+    },
+    {
+      "alpha": 0.4,
+      "beta": 0.4,
+      "mean_ci": 0.7537326096729475,
+      "std_ci": 0.056123280541447766,
+      "fold_cis": [
+        0.6796675191815856,
+        0.7042869641294838,
+        0.7824074074074074,
+        0.7657992565055762,
+        0.8365019011406845
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.4_B0.4_CI0.6797.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.4_B0.4_CI0.7043.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.4_B0.4_CI0.7824.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.4_B0.4_CI0.7658.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.4_B0.4_CI0.8365.pth"
+      ]
+    },
+    {
+      "alpha": 0.4,
+      "beta": 0.6,
+      "mean_ci": 0.753704587656865,
+      "std_ci": 0.053324882018811824,
+      "fold_cis": [
+        0.6835038363171355,
+        0.710411198600175,
+        0.7955246913580247,
+        0.7501858736059479,
+        0.8288973384030418
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.4_B0.6_CI0.6835.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.4_B0.6_CI0.7104.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.4_B0.6_CI0.7955.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.4_B0.6_CI0.7502.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.4_B0.6_CI0.8289.pth"
+      ]
+    },
+    {
+      "alpha": 0.7,
+      "beta": 0.3,
+      "mean_ci": 0.7535861923188436,
+      "std_ci": 0.05271482149687287,
+      "fold_cis": [
+        0.6822250639386189,
+        0.710411198600175,
+        0.7962962962962963,
+        0.753903345724907,
+        0.8250950570342205
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.7_B0.3_CI0.6822.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.7_B0.3_CI0.7104.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.7_B0.3_CI0.7963.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.7_B0.3_CI0.7539.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.7_B0.3_CI0.8251.pth"
+      ]
+    },
+    {
+      "alpha": 0.6,
+      "beta": 0.4,
+      "mean_ci": 0.7534074179974789,
+      "std_ci": 0.05338861782563641,
+      "fold_cis": [
+        0.6822250639386189,
+        0.710411198600175,
+        0.7955246913580247,
+        0.7509293680297398,
+        0.8279467680608364
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.6_B0.4_CI0.6822.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.6_B0.4_CI0.7104.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.6_B0.4_CI0.7955.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.6_B0.4_CI0.7509.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.6_B0.4_CI0.8279.pth"
+      ]
+    },
+    {
+      "alpha": 0.1,
+      "beta": 0.7,
+      "mean_ci": 0.7532242761880831,
+      "std_ci": 0.05558455031057469,
+      "fold_cis": [
+        0.680306905370844,
+        0.7042869641294838,
+        0.7824074074074074,
+        0.7635687732342007,
+        0.8355513307984791
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.1_B0.7_CI0.6803.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.1_B0.7_CI0.7043.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.1_B0.7_CI0.7824.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.1_B0.7_CI0.7636.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.1_B0.7_CI0.8356.pth"
+      ]
+    },
+    {
+      "alpha": 0.5,
+      "beta": 0.5,
+      "mean_ci": 0.7531493813922487,
+      "std_ci": 0.052934683672470575,
+      "fold_cis": [
+        0.6835038363171355,
+        0.7095363079615048,
+        0.7955246913580247,
+        0.7501858736059479,
+        0.8269961977186312
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.5_B0.5_CI0.6835.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.5_B0.5_CI0.7095.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.5_B0.5_CI0.7955.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.5_B0.5_CI0.7502.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.5_B0.5_CI0.8270.pth"
+      ]
+    },
+    {
+      "alpha": 0.3,
+      "beta": 0.7,
+      "mean_ci": 0.7530423258013038,
+      "std_ci": 0.053265841420949575,
+      "fold_cis": [
+        0.6822250639386189,
+        0.7095363079615048,
+        0.7955246913580247,
+        0.7509293680297398,
+        0.8269961977186312
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.3_B0.7_CI0.6822.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.3_B0.7_CI0.7095.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.3_B0.7_CI0.7955.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.3_B0.7_CI0.7509.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.3_B0.7_CI0.8270.pth"
+      ]
+    },
+    {
+      "alpha": 0.1,
+      "beta": 0.9,
+      "mean_ci": 0.7529975070409484,
+      "std_ci": 0.054037962976473626,
+      "fold_cis": [
+        0.680306905370844,
+        0.7095363079615048,
+        0.7955246913580247,
+        0.7516728624535316,
+        0.8279467680608364
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.1_B0.9_CI0.6803.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.1_B0.9_CI0.7095.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.1_B0.9_CI0.7955.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.1_B0.9_CI0.7517.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.1_B0.9_CI0.8279.pth"
+      ]
+    },
+    {
+      "alpha": 0.2,
+      "beta": 0.8,
+      "mean_ci": 0.7529766853940416,
+      "std_ci": 0.053871108476289994,
+      "fold_cis": [
+        0.6809462915601023,
+        0.7095363079615048,
+        0.7955246913580247,
+        0.7509293680297398,
+        0.8279467680608364
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.2_B0.8_CI0.6809.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.2_B0.8_CI0.7095.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.2_B0.8_CI0.7955.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.2_B0.8_CI0.7509.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.2_B0.8_CI0.8279.pth"
+      ]
+    },
+    {
+      "alpha": 0.2,
+      "beta": 0.6,
+      "mean_ci": 0.7529418179144655,
+      "std_ci": 0.05442960626720098,
+      "fold_cis": [
+        0.680306905370844,
+        0.705161854768154,
+        0.783179012345679,
+        0.7643122676579925,
+        0.8317490494296578
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.2_B0.6_CI0.6803.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.2_B0.6_CI0.7052.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.2_B0.6_CI0.7832.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.2_B0.6_CI0.7643.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.2_B0.6_CI0.8317.pth"
+      ]
+    },
+    {
+      "alpha": 0.8,
+      "beta": 0.2,
+      "mean_ci": 0.7528240947743682,
+      "std_ci": 0.05374254363114891,
+      "fold_cis": [
+        0.6809462915601023,
+        0.710411198600175,
+        0.7970679012345679,
+        0.7486988847583643,
+        0.8269961977186312
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.8_B0.2_CI0.6809.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.8_B0.2_CI0.7104.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.8_B0.2_CI0.7971.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.8_B0.2_CI0.7487.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.8_B0.2_CI0.8270.pth"
+      ]
+    },
+    {
+      "alpha": 0.2,
+      "beta": 0.2,
+      "mean_ci": 0.7527282654210402,
+      "std_ci": 0.04997394276943069,
+      "fold_cis": [
+        0.6828644501278772,
+        0.710411198600175,
+        0.7800925925925926,
+        0.7680297397769517,
+        0.8222433460076045
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.2_B0.2_CI0.6829.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.2_B0.2_CI0.7104.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.2_B0.2_CI0.7801.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.2_B0.2_CI0.7680.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.2_B0.2_CI0.8222.pth"
+      ]
+    },
+    {
+      "alpha": 0.9,
+      "beta": 0.1,
+      "mean_ci": 0.7526905954336205,
+      "std_ci": 0.053777832926185626,
+      "fold_cis": [
+        0.680306905370844,
+        0.710411198600175,
+        0.7962962962962963,
+        0.7494423791821562,
+        0.8269961977186312
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.9_B0.1_CI0.6803.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.9_B0.1_CI0.7104.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.9_B0.1_CI0.7963.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.9_B0.1_CI0.7494.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.9_B0.1_CI0.8270.pth"
+      ]
+    },
+    {
+      "alpha": 0.7,
+      "beta": 0.1,
+      "mean_ci": 0.7526122906889464,
+      "std_ci": 0.05435350495329768,
+      "fold_cis": [
+        0.6815856777493606,
+        0.7042869641294838,
+        0.7824074074074074,
+        0.7620817843866171,
+        0.8326996197718631
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.7_B0.1_CI0.6816.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.7_B0.1_CI0.7043.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.7_B0.1_CI0.7824.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.7_B0.1_CI0.7621.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.7_B0.1_CI0.8327.pth"
+      ]
+    },
+    {
+      "alpha": 0.6,
+      "beta": 0.6,
+      "mean_ci": 0.7522922225598686,
+      "std_ci": 0.05224341291719177,
+      "fold_cis": [
+        0.6790281329923273,
+        0.7121609798775154,
+        0.7785493827160493,
+        0.762825278810409,
+        0.8288973384030418
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.6_B0.6_CI0.6790.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.6_B0.6_CI0.7122.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.6_B0.6_CI0.7785.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.6_B0.6_CI0.7628.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.6_B0.6_CI0.8289.pth"
+      ]
+    },
+    {
+      "alpha": 0.1,
+      "beta": 0.3,
+      "mean_ci": 0.752009160727655,
+      "std_ci": 0.04937430013450378,
+      "fold_cis": [
+        0.6835038363171355,
+        0.7095363079615048,
+        0.7808641975308642,
+        0.7657992565055762,
+        0.8203422053231939
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.1_B0.3_CI0.6835.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.1_B0.3_CI0.7095.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.1_B0.3_CI0.7809.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.1_B0.3_CI0.7658.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.1_B0.3_CI0.8203.pth"
+      ]
+    },
+    {
+      "alpha": 0.3,
+      "beta": 0.9,
+      "mean_ci": 0.751758363400621,
+      "std_ci": 0.05438122676949304,
+      "fold_cis": [
+        0.6771099744245525,
+        0.7077865266841645,
+        0.779320987654321,
+        0.762825278810409,
+        0.8317490494296578
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.3_B0.9_CI0.6771.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.3_B0.9_CI0.7078.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.3_B0.9_CI0.7793.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.3_B0.9_CI0.7628.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.3_B0.9_CI0.8317.pth"
+      ]
+    },
+    {
+      "alpha": 0.3,
+      "beta": 0.1,
+      "mean_ci": 0.7515633557868143,
+      "std_ci": 0.049242522305324284,
+      "fold_cis": [
+        0.6815856777493606,
+        0.710411198600175,
+        0.7800925925925926,
+        0.7672862453531598,
+        0.8184410646387833
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.3_B0.1_CI0.6816.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.3_B0.1_CI0.7104.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.3_B0.1_CI0.7801.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.3_B0.1_CI0.7673.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.3_B0.1_CI0.8184.pth"
+      ]
+    },
+    {
+      "alpha": 0.8,
+      "beta": 0.4,
+      "mean_ci": 0.7515535379464113,
+      "std_ci": 0.05535785334278994,
+      "fold_cis": [
+        0.6758312020460358,
+        0.7069116360454943,
+        0.7785493827160493,
+        0.762825278810409,
+        0.8336501901140685
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.8_B0.4_CI0.6758.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.8_B0.4_CI0.7069.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.8_B0.4_CI0.7785.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.8_B0.4_CI0.7628.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.8_B0.4_CI0.8337.pth"
+      ]
+    },
+    {
+      "alpha": 0.9,
+      "beta": 0.3,
+      "mean_ci": 0.7514679372912769,
+      "std_ci": 0.052593141457507785,
+      "fold_cis": [
+        0.680306905370844,
+        0.7069116360454943,
+        0.7800925925925926,
+        0.7620817843866171,
+        0.8279467680608364
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.9_B0.3_CI0.6803.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.9_B0.3_CI0.7069.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.9_B0.3_CI0.7801.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.9_B0.3_CI0.7621.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.9_B0.3_CI0.8279.pth"
+      ]
+    },
+    {
+      "alpha": 0.5,
+      "beta": 0.7,
+      "mean_ci": 0.7514442002259396,
+      "std_ci": 0.05487089784538557,
+      "fold_cis": [
+        0.6771099744245525,
+        0.7060367454068242,
+        0.7785493827160493,
+        0.762825278810409,
+        0.8326996197718631
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.5_B0.7_CI0.6771.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.5_B0.7_CI0.7060.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.5_B0.7_CI0.7785.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.5_B0.7_CI0.7628.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.5_B0.7_CI0.8327.pth"
+      ]
+    },
+    {
+      "alpha": 0.7,
+      "beta": 0.5,
+      "mean_ci": 0.7513516279106325,
+      "std_ci": 0.05383737653678594,
+      "fold_cis": [
+        0.678388746803069,
+        0.7069116360454943,
+        0.779320987654321,
+        0.7613382899628253,
+        0.8307984790874525
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.7_B0.5_CI0.6784.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.7_B0.5_CI0.7069.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.7_B0.5_CI0.7793.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.7_B0.5_CI0.7613.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.7_B0.5_CI0.8308.pth"
+      ]
+    },
+    {
+      "alpha": 0.4,
+      "beta": 0.8,
+      "mean_ci": 0.750825635683588,
+      "std_ci": 0.05595479786359542,
+      "fold_cis": [
+        0.6732736572890026,
+        0.7060367454068242,
+        0.7785493827160493,
+        0.7635687732342007,
+        0.8326996197718631
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.4_B0.8_CI0.6733.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.4_B0.8_CI0.7060.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.4_B0.8_CI0.7785.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.4_B0.8_CI0.7636.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.4_B0.8_CI0.8327.pth"
+      ]
+    },
+    {
+      "alpha": 0.6,
+      "beta": 0.2,
+      "mean_ci": 0.7505418841587435,
+      "std_ci": 0.05268298512763751,
+      "fold_cis": [
+        0.6815856777493606,
+        0.705161854768154,
+        0.7770061728395061,
+        0.7591078066914498,
+        0.8298479087452472
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.6_B0.2_CI0.6816.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.6_B0.2_CI0.7052.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.6_B0.2_CI0.7770.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.6_B0.2_CI0.7591.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.6_B0.2_CI0.8298.pth"
+      ]
+    },
+    {
+      "alpha": 0.8,
+      "beta": 0.7,
+      "mean_ci": 0.7503520400285677,
+      "std_ci": 0.05149470279429511,
+      "fold_cis": [
+        0.6867007672634271,
+        0.715660542432196,
+        0.7723765432098766,
+        0.7405204460966542,
+        0.8365019011406845
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.8_B0.7_CI0.6867.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.8_B0.7_CI0.7157.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.8_B0.7_CI0.7724.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.8_B0.7_CI0.7405.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.8_B0.7_CI0.8365.pth"
+      ]
+    },
+    {
+      "alpha": 0.6,
+      "beta": 0.9,
+      "mean_ci": 0.7501619259601265,
+      "std_ci": 0.051177068967708045,
+      "fold_cis": [
+        0.6867007672634271,
+        0.715660542432196,
+        0.7723765432098766,
+        0.7405204460966542,
+        0.8355513307984791
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.6_B0.9_CI0.6867.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.6_B0.9_CI0.7157.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.6_B0.9_CI0.7724.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.6_B0.9_CI0.7405.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.6_B0.9_CI0.8356.pth"
+      ]
+    },
+    {
+      "alpha": 0.1,
+      "beta": 0.4,
+      "mean_ci": 0.7500389175292363,
+      "std_ci": 0.052776003796120394,
+      "fold_cis": [
+        0.690537084398977,
+        0.7165354330708661,
+        0.7700617283950617,
+        0.7308550185873606,
+        0.8422053231939164
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.1_B0.4_CI0.6905.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.1_B0.4_CI0.7165.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.1_B0.4_CI0.7701.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.1_B0.4_CI0.7309.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.1_B0.4_CI0.8422.pth"
+      ]
+    },
+    {
+      "alpha": 0.7,
+      "beta": 0.8,
+      "mean_ci": 0.750034048722275,
+      "std_ci": 0.051336032899391315,
+      "fold_cis": [
+        0.6860613810741688,
+        0.715660542432196,
+        0.7723765432098766,
+        0.7405204460966542,
+        0.8355513307984791
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.7_B0.8_CI0.6861.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.7_B0.8_CI0.7157.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.7_B0.8_CI0.7724.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.7_B0.8_CI0.7405.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.7_B0.8_CI0.8356.pth"
+      ]
+    },
+    {
+      "alpha": 0.8,
+      "beta": 0.9,
+      "mean_ci": 0.74991166214437,
+      "std_ci": 0.06087923200104918,
+      "fold_cis": [
+        0.7174103237095363,
+        0.6751918158567775,
+        0.7754629629629629,
+        0.7278810408921933,
+        0.8536121673003803
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.8_B0.9_CI0.7174.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.8_B0.9_CI0.6752.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.8_B0.9_CI0.7755.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.8_B0.9_CI0.7279.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.8_B0.9_CI0.8536.pth"
+      ]
+    },
+    {
+      "alpha": 0.3,
+      "beta": 0.2,
+      "mean_ci": 0.7497417478698504,
+      "std_ci": 0.05268323075736607,
+      "fold_cis": [
+        0.6892583120204604,
+        0.7165354330708661,
+        0.7700617283950617,
+        0.7315985130111524,
+        0.841254752851711
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.3_B0.2_CI0.6893.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.3_B0.2_CI0.7165.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.3_B0.2_CI0.7701.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.3_B0.2_CI0.7316.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.3_B0.2_CI0.8413.pth"
+      ]
+    },
+    {
+      "alpha": 0.9,
+      "beta": 0.8,
+      "mean_ci": 0.7494832116704595,
+      "std_ci": 0.06210370086852999,
+      "fold_cis": [
+        0.6713554987212276,
+        0.7174103237095363,
+        0.7754629629629629,
+        0.7286245353159851,
+        0.8545627376425855
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.9_B0.8_CI0.6714.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.9_B0.8_CI0.7174.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.9_B0.8_CI0.7755.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.9_B0.8_CI0.7286.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.9_B0.8_CI0.8546.pth"
+      ]
+    },
+    {
+      "alpha": 0.9,
+      "beta": 0.6,
+      "mean_ci": 0.7494603029402789,
+      "std_ci": 0.05150284928297021,
+      "fold_cis": [
+        0.6841432225063938,
+        0.715660542432196,
+        0.7723765432098766,
+        0.7405204460966542,
+        0.8346007604562737
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.9_B0.6_CI0.6841.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.9_B0.6_CI0.7157.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.9_B0.6_CI0.7724.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.9_B0.6_CI0.7405.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.9_B0.6_CI0.8346.pth"
+      ]
+    },
+    {
+      "alpha": 0.4,
+      "beta": 0.9,
+      "mean_ci": 0.7494589659299261,
+      "std_ci": 0.0723599282196183,
+      "fold_cis": [
+        0.6425831202046036,
+        0.710411198600175,
+        0.7754629629629629,
+        0.7576208178438661,
+        0.8612167300380228
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.4_B0.9_CI0.6426.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.4_B0.9_CI0.7104.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.4_B0.9_CI0.7755.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.4_B0.9_CI0.7576.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.4_B0.9_CI0.8612.pth"
+      ]
+    },
+    {
+      "alpha": 0.6,
+      "beta": 0.7,
+      "mean_ci": 0.7492010565313034,
+      "std_ci": 0.07133882738704281,
+      "fold_cis": [
+        0.6425831202046036,
+        0.7112860892388452,
+        0.7739197530864198,
+        0.7598513011152417,
+        0.8583650190114068
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.6_B0.7_CI0.6426.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.6_B0.7_CI0.7113.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.6_B0.7_CI0.7739.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.6_B0.7_CI0.7599.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.6_B0.7_CI0.8584.pth"
+      ]
+    },
+    {
+      "alpha": 0.5,
+      "beta": 0.8,
+      "mean_ci": 0.7487398239363212,
+      "std_ci": 0.07089475654162906,
+      "fold_cis": [
+        0.6425831202046036,
+        0.7121609798775154,
+        0.7739197530864198,
+        0.7576208178438661,
+        0.8574144486692015
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.5_B0.8_CI0.6426.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.5_B0.8_CI0.7122.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.5_B0.8_CI0.7739.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.5_B0.8_CI0.7576.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.5_B0.8_CI0.8574.pth"
+      ]
+    },
+    {
+      "alpha": 0.9,
+      "beta": 0.9,
+      "mean_ci": 0.7486565782422626,
+      "std_ci": 0.05056196785280013,
+      "fold_cis": [
+        0.6751918158567775,
+        0.710411198600175,
+        0.7754629629629629,
+        0.762825278810409,
+        0.8193916349809885
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.9_B0.9_CI0.6752.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.9_B0.9_CI0.7104.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.9_B0.9_CI0.7755.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.9_B0.9_CI0.7628.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.9_B0.9_CI0.8194.pth"
+      ]
+    },
+    {
+      "alpha": 0.1,
+      "beta": 0.2,
+      "mean_ci": 0.7485235975897474,
+      "std_ci": 0.05273865189622731,
+      "fold_cis": [
+        0.6790281329923273,
+        0.710411198600175,
+        0.7924382716049383,
+        0.737546468401487,
+        0.8231939163498099
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.1_B0.2_CI0.6790.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.1_B0.2_CI0.7104.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.1_B0.2_CI0.7924.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.1_B0.2_CI0.7375.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-BRCA/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.1_B0.2_CI0.8232.pth"
+      ]
+    }
+  ],
+  "note": "CI_v2: 64\u7ef4emb\u878d\u5408, ModalityCausalGate, \u53ef\u6bd4\u8f83\u5bf9Distill, \u53cd\u4e8b\u5b9e\u56e0\u679c\u6548\u5e94"
+}
