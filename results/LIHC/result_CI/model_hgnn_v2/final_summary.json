@@ -1,0 +1,1022 @@
+{
+  "cancer": "LIHC",
+  "run": "result_CI",
+  "n_samples": 339,
+  "n_events": 121,
+  "best_params": {
+    "alpha": 0.6,
+    "beta": 0.1
+  },
+  "best_mean_ci": 0.7412843486301058,
+  "best_std_ci": 0.030734861059426192,
+  "fold_cis": [
+    0.7615023474178404,
+    0.7918593894542091,
+    0.7190412782956058,
+    0.7105575326215896,
+    0.7234611953612846
+  ],
+  "all_combos": [
+    {
+      "alpha": 0.6,
+      "beta": 0.1,
+      "mean_ci": 0.7412843486301058,
+      "std_ci": 0.030734861059426192,
+      "fold_cis": [
+        0.7615023474178404,
+        0.7918593894542091,
+        0.7190412782956058,
+        0.7105575326215896,
+        0.7234611953612846
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.6_B0.1_CI0.7615.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.6_B0.1_CI0.7919.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.6_B0.1_CI0.7190.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.6_B0.1_CI0.7106.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.6_B0.1_CI0.7235.pth"
+      ]
+    },
+    {
+      "alpha": 0.5,
+      "beta": 0.2,
+      "mean_ci": 0.7412161315428452,
+      "std_ci": 0.03065922501060603,
+      "fold_cis": [
+        0.7605633802816901,
+        0.7918593894542091,
+        0.7190412782956058,
+        0.7093712930011863,
+        0.7252453166815344
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.5_B0.2_CI0.7606.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.5_B0.2_CI0.7919.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.5_B0.2_CI0.7190.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.5_B0.2_CI0.7094.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.5_B0.2_CI0.7252.pth"
+      ]
+    },
+    {
+      "alpha": 0.3,
+      "beta": 0.4,
+      "mean_ci": 0.7412150889012081,
+      "std_ci": 0.029916701903174848,
+      "fold_cis": [
+        0.7624413145539906,
+        0.7890841813135985,
+        0.7190412782956058,
+        0.7093712930011863,
+        0.7261373773416593
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.3_B0.4_CI0.7624.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.3_B0.4_CI0.7891.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.3_B0.4_CI0.7190.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.3_B0.4_CI0.7094.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.3_B0.4_CI0.7261.pth"
+      ]
+    },
+    {
+      "alpha": 0.2,
+      "beta": 0.5,
+      "mean_ci": 0.7407938697427238,
+      "std_ci": 0.03060446355635944,
+      "fold_cis": [
+        0.7605633802816901,
+        0.7909343200740055,
+        0.7190412782956058,
+        0.708185053380783,
+        0.7252453166815344
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.2_B0.5_CI0.7606.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.2_B0.5_CI0.7909.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.2_B0.5_CI0.7190.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.2_B0.5_CI0.7082.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.2_B0.5_CI0.7252.pth"
+      ]
+    },
+    {
+      "alpha": 0.7,
+      "beta": 0.4,
+      "mean_ci": 0.7394078354781848,
+      "std_ci": 0.022684192550808984,
+      "fold_cis": [
+        0.7549295774647887,
+        0.7761332099907493,
+        0.715046604527297,
+        0.7247924080664294,
+        0.7261373773416593
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.7_B0.4_CI0.7549.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.7_B0.4_CI0.7761.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.7_B0.4_CI0.7150.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.7_B0.4_CI0.7248.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.7_B0.4_CI0.7261.pth"
+      ]
+    },
+    {
+      "alpha": 0.4,
+      "beta": 0.8,
+      "mean_ci": 0.7392858010764434,
+      "std_ci": 0.023560094332436526,
+      "fold_cis": [
+        0.7530516431924883,
+        0.7779833487511564,
+        0.7177097203728362,
+        0.7153024911032029,
+        0.7323818019625334
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.4_B0.8_CI0.7531.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.4_B0.8_CI0.7780.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.4_B0.8_CI0.7177.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.4_B0.8_CI0.7153.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.4_B0.8_CI0.7324.pth"
+      ]
+    },
+    {
+      "alpha": 0.7,
+      "beta": 0.5,
+      "mean_ci": 0.7392138846631353,
+      "std_ci": 0.024277128950026247,
+      "fold_cis": [
+        0.7539906103286385,
+        0.7789084181313598,
+        0.7163781624500666,
+        0.7153024911032029,
+        0.7314897413024085
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.7_B0.5_CI0.7540.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.7_B0.5_CI0.7789.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.7_B0.5_CI0.7164.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.7_B0.5_CI0.7153.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.7_B0.5_CI0.7315.pth"
+      ]
+    },
+    {
+      "alpha": 0.8,
+      "beta": 0.3,
+      "mean_ci": 0.7390482316629454,
+      "std_ci": 0.023079373161474615,
+      "fold_cis": [
+        0.7539906103286385,
+        0.7770582793709528,
+        0.715046604527297,
+        0.7247924080664294,
+        0.7243532560214094
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.8_B0.3_CI0.7540.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.8_B0.3_CI0.7771.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.8_B0.3_CI0.7150.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.8_B0.3_CI0.7248.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.8_B0.3_CI0.7244.pth"
+      ]
+    },
+    {
+      "alpha": 0.2,
+      "beta": 0.9,
+      "mean_ci": 0.7388929899184872,
+      "std_ci": 0.022910214476151238,
+      "fold_cis": [
+        0.7539906103286385,
+        0.7761332099907493,
+        0.7137150466045273,
+        0.727164887307236,
+        0.7234611953612846
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.2_B0.9_CI0.7540.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.2_B0.9_CI0.7761.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.2_B0.9_CI0.7137.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.2_B0.9_CI0.7272.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.2_B0.9_CI0.7235.pth"
+      ]
+    },
+    {
+      "alpha": 0.4,
+      "beta": 0.3,
+      "mean_ci": 0.738659531602684,
+      "std_ci": 0.026855898068887354,
+      "fold_cis": [
+        0.7596244131455399,
+        0.7807585568917669,
+        0.7177097203728362,
+        0.7117437722419929,
+        0.7234611953612846
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.4_B0.3_CI0.7596.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.4_B0.3_CI0.7808.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.4_B0.3_CI0.7177.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.4_B0.3_CI0.7117.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.4_B0.3_CI0.7235.pth"
+      ]
+    },
+    {
+      "alpha": 0.3,
+      "beta": 0.9,
+      "mean_ci": 0.7385561695091227,
+      "std_ci": 0.023258705379356145,
+      "fold_cis": [
+        0.752112676056338,
+        0.7770582793709528,
+        0.7177097203728362,
+        0.7153024911032029,
+        0.7305976806422837
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.3_B0.9_CI0.7521.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.3_B0.9_CI0.7771.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.3_B0.9_CI0.7177.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.3_B0.9_CI0.7153.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.3_B0.9_CI0.7306.pth"
+      ]
+    },
+    {
+      "alpha": 0.1,
+      "beta": 0.3,
+      "mean_ci": 0.7382719438794536,
+      "std_ci": 0.024748617948028132,
+      "fold_cis": [
+        0.7276995305164319,
+        0.7844588344125809,
+        0.7217043941411452,
+        0.7153024911032029,
+        0.7421944692239072
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.1_B0.3_CI0.7277.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.1_B0.3_CI0.7845.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.1_B0.3_CI0.7217.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.1_B0.3_CI0.7153.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.1_B0.3_CI0.7422.pth"
+      ]
+    },
+    {
+      "alpha": 0.1,
+      "beta": 0.6,
+      "mean_ci": 0.7381953368245859,
+      "std_ci": 0.026940946346067106,
+      "fold_cis": [
+        0.7577464788732394,
+        0.7807585568917669,
+        0.7190412782956058,
+        0.708185053380783,
+        0.7252453166815344
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.1_B0.6_CI0.7577.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.1_B0.6_CI0.7808.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.1_B0.6_CI0.7190.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.1_B0.6_CI0.7082.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.1_B0.6_CI0.7252.pth"
+      ]
+    },
+    {
+      "alpha": 0.6,
+      "beta": 0.6,
+      "mean_ci": 0.7380629110705512,
+      "std_ci": 0.023439207352996264,
+      "fold_cis": [
+        0.7502347417840376,
+        0.7770582793709528,
+        0.7177097203728362,
+        0.7129300118623962,
+        0.7323818019625334
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.6_B0.6_CI0.7502.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.6_B0.6_CI0.7771.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.6_B0.6_CI0.7177.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.6_B0.6_CI0.7129.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.6_B0.6_CI0.7324.pth"
+      ]
+    },
+    {
+      "alpha": 0.3,
+      "beta": 0.1,
+      "mean_ci": 0.7378496820793323,
+      "std_ci": 0.024628780878596622,
+      "fold_cis": [
+        0.7276995305164319,
+        0.7835337650323775,
+        0.7217043941411452,
+        0.7141162514827996,
+        0.7421944692239072
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.3_B0.1_CI0.7277.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.3_B0.1_CI0.7835.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.3_B0.1_CI0.7217.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.3_B0.1_CI0.7141.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.3_B0.1_CI0.7422.pth"
+      ]
+    },
+    {
+      "alpha": 0.8,
+      "beta": 0.4,
+      "mean_ci": 0.7377995019039656,
+      "std_ci": 0.024714966321392015,
+      "fold_cis": [
+        0.752112676056338,
+        0.7789084181313598,
+        0.715046604527297,
+        0.7141162514827996,
+        0.7288135593220338
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.8_B0.4_CI0.7521.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.8_B0.4_CI0.7789.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.8_B0.4_CI0.7150.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.8_B0.4_CI0.7141.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.8_B0.4_CI0.7288.pth"
+      ]
+    },
+    {
+      "alpha": 0.9,
+      "beta": 0.3,
+      "mean_ci": 0.737543491389475,
+      "std_ci": 0.024626419068936287,
+      "fold_cis": [
+        0.7502347417840376,
+        0.7789084181313598,
+        0.715046604527297,
+        0.7129300118623962,
+        0.7305976806422837
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.9_B0.3_CI0.7502.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.9_B0.3_CI0.7789.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.9_B0.3_CI0.7150.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.9_B0.3_CI0.7129.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.9_B0.3_CI0.7306.pth"
+      ]
+    },
+    {
+      "alpha": 0.8,
+      "beta": 0.1,
+      "mean_ci": 0.7374878520188177,
+      "std_ci": 0.02330251713611008,
+      "fold_cis": [
+        0.7276995305164319,
+        0.7835337650323775,
+        0.7190412782956058,
+        0.7283511269276394,
+        0.7288135593220338
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.8_B0.1_CI0.7277.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.8_B0.1_CI0.7835.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.8_B0.1_CI0.7190.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.8_B0.1_CI0.7284.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.8_B0.1_CI0.7288.pth"
+      ]
+    },
+    {
+      "alpha": 0.2,
+      "beta": 0.2,
+      "mean_ci": 0.7374340220232267,
+      "std_ci": 0.024830540679186178,
+      "fold_cis": [
+        0.7276995305164319,
+        0.7835337650323775,
+        0.7217043941411452,
+        0.7129300118623962,
+        0.7413024085637824
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.2_B0.2_CI0.7277.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.2_B0.2_CI0.7835.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.2_B0.2_CI0.7217.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.2_B0.2_CI0.7129.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.2_B0.2_CI0.7413.pth"
+      ]
+    },
+    {
+      "alpha": 0.4,
+      "beta": 0.7,
+      "mean_ci": 0.7373996570407753,
+      "std_ci": 0.02438275801438974,
+      "fold_cis": [
+        0.755868544600939,
+        0.7761332099907493,
+        0.715046604527297,
+        0.7164887307236062,
+        0.7234611953612846
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.4_B0.7_CI0.7559.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.4_B0.7_CI0.7761.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.4_B0.7_CI0.7150.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.4_B0.7_CI0.7165.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.4_B0.7_CI0.7235.pth"
+      ]
+    },
+    {
+      "alpha": 0.5,
+      "beta": 0.7,
+      "mean_ci": 0.737309774945136,
+      "std_ci": 0.02271720689534838,
+      "fold_cis": [
+        0.7511737089201878,
+        0.7742830712303422,
+        0.7163781624500666,
+        0.7141162514827996,
+        0.7305976806422837
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.5_B0.7_CI0.7512.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.5_B0.7_CI0.7743.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.5_B0.7_CI0.7164.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.5_B0.7_CI0.7141.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.5_B0.7_CI0.7306.pth"
+      ]
+    },
+    {
+      "alpha": 0.3,
+      "beta": 0.8,
+      "mean_ci": 0.7372491572640012,
+      "std_ci": 0.023866699831689854,
+      "fold_cis": [
+        0.752112676056338,
+        0.7770582793709528,
+        0.715046604527297,
+        0.7176749703440095,
+        0.7243532560214094
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.3_B0.8_CI0.7521.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.3_B0.8_CI0.7771.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.3_B0.8_CI0.7150.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.3_B0.8_CI0.7177.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.3_B0.8_CI0.7244.pth"
+      ]
+    },
+    {
+      "alpha": 0.9,
+      "beta": 0.2,
+      "mean_ci": 0.737111969638844,
+      "std_ci": 0.023976023448676626,
+      "fold_cis": [
+        0.7539906103286385,
+        0.7761332099907493,
+        0.7163781624500666,
+        0.7164887307236062,
+        0.7225691347011597
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.9_B0.2_CI0.7540.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.9_B0.2_CI0.7761.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.9_B0.2_CI0.7164.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.9_B0.2_CI0.7165.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.9_B0.2_CI0.7226.pth"
+      ]
+    },
+    {
+      "alpha": 0.6,
+      "beta": 0.4,
+      "mean_ci": 0.7368447648776038,
+      "std_ci": 0.030150353178392323,
+      "fold_cis": [
+        0.7549295774647887,
+        0.786308973172988,
+        0.7163781624500666,
+        0.7022538552787663,
+        0.7243532560214094
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.6_B0.4_CI0.7549.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.6_B0.4_CI0.7863.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.6_B0.4_CI0.7164.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.6_B0.4_CI0.7023.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.6_B0.4_CI0.7244.pth"
+      ]
+    },
+    {
+      "alpha": 0.5,
+      "beta": 0.6,
+      "mean_ci": 0.7367514910282733,
+      "std_ci": 0.024788237997235008,
+      "fold_cis": [
+        0.752112676056338,
+        0.7779833487511564,
+        0.7163781624500666,
+        0.7129300118623962,
+        0.7243532560214094
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.5_B0.6_CI0.7521.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.5_B0.6_CI0.7780.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.5_B0.6_CI0.7164.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.5_B0.6_CI0.7129.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.5_B0.6_CI0.7244.pth"
+      ]
+    },
+    {
+      "alpha": 0.9,
+      "beta": 0.1,
+      "mean_ci": 0.7366849490117667,
+      "std_ci": 0.03094643269214019,
+      "fold_cis": [
+        0.755868544600939,
+        0.7872340425531915,
+        0.7137150466045273,
+        0.7022538552787663,
+        0.7243532560214094
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.9_B0.1_CI0.7559.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.9_B0.1_CI0.7872.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.9_B0.1_CI0.7137.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.9_B0.1_CI0.7023.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.9_B0.1_CI0.7244.pth"
+      ]
+    },
+    {
+      "alpha": 0.4,
+      "beta": 0.6,
+      "mean_ci": 0.736659751001563,
+      "std_ci": 0.029847572556492338,
+      "fold_cis": [
+        0.7549295774647887,
+        0.7853839037927844,
+        0.7163781624500666,
+        0.7022538552787663,
+        0.7243532560214094
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.4_B0.6_CI0.7549.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.4_B0.6_CI0.7854.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.4_B0.6_CI0.7164.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.4_B0.6_CI0.7023.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.4_B0.6_CI0.7244.pth"
+      ]
+    },
+    {
+      "alpha": 0.6,
+      "beta": 0.5,
+      "mean_ci": 0.7364634694558143,
+      "std_ci": 0.02354900691124687,
+      "fold_cis": [
+        0.752112676056338,
+        0.7752081406105458,
+        0.715046604527297,
+        0.7164887307236062,
+        0.7234611953612846
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.6_B0.5_CI0.7521.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.6_B0.5_CI0.7752.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.6_B0.5_CI0.7150.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.6_B0.5_CI0.7165.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.6_B0.5_CI0.7235.pth"
+      ]
+    },
+    {
+      "alpha": 0.8,
+      "beta": 0.5,
+      "mean_ci": 0.7364397651011332,
+      "std_ci": 0.027124533643941226,
+      "fold_cis": [
+        0.7342723004694836,
+        0.7890841813135985,
+        0.7203728362183754,
+        0.7141162514827996,
+        0.7243532560214094
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.8_B0.5_CI0.7343.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.8_B0.5_CI0.7891.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.8_B0.5_CI0.7204.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.8_B0.5_CI0.7141.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.8_B0.5_CI0.7244.pth"
+      ]
+    },
+    {
+      "alpha": 0.5,
+      "beta": 0.5,
+      "mean_ci": 0.7360991502710623,
+      "std_ci": 0.029320414226248148,
+      "fold_cis": [
+        0.7530516431924883,
+        0.7844588344125809,
+        0.7163781624500666,
+        0.7022538552787663,
+        0.7243532560214094
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.5_B0.5_CI0.7531.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.5_B0.5_CI0.7845.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.5_B0.5_CI0.7164.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.5_B0.5_CI0.7023.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.5_B0.5_CI0.7244.pth"
+      ]
+    },
+    {
+      "alpha": 0.2,
+      "beta": 0.7,
+      "mean_ci": 0.7360061936959439,
+      "std_ci": 0.026239042001735435,
+      "fold_cis": [
+        0.7276995305164319,
+        0.7872340425531915,
+        0.7123834886817576,
+        0.7247924080664294,
+        0.727921498661909
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.2_B0.7_CI0.7277.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.2_B0.7_CI0.7872.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.2_B0.7_CI0.7124.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.2_B0.7_CI0.7248.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.2_B0.7_CI0.7279.pth"
+      ]
+    },
+    {
+      "alpha": 0.1,
+      "beta": 0.8,
+      "mean_ci": 0.735977881964023,
+      "std_ci": 0.024535122643894132,
+      "fold_cis": [
+        0.7276995305164319,
+        0.7835337650323775,
+        0.7123834886817576,
+        0.7283511269276394,
+        0.727921498661909
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.1_B0.8_CI0.7277.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.1_B0.8_CI0.7835.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.1_B0.8_CI0.7124.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.1_B0.8_CI0.7284.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.1_B0.8_CI0.7279.pth"
+      ]
+    },
+    {
+      "alpha": 0.5,
+      "beta": 0.3,
+      "mean_ci": 0.7357451381427504,
+      "std_ci": 0.02560057094945787,
+      "fold_cis": [
+        0.7474178403755869,
+        0.7807585568917669,
+        0.7123834886817576,
+        0.7164887307236062,
+        0.7216770740410348
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.5_B0.3_CI0.7474.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.5_B0.3_CI0.7808.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.5_B0.3_CI0.7124.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.5_B0.3_CI0.7165.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.5_B0.3_CI0.7217.pth"
+      ]
+    },
+    {
+      "alpha": 0.1,
+      "beta": 0.9,
+      "mean_ci": 0.7354749717808213,
+      "std_ci": 0.028910250868325743,
+      "fold_cis": [
+        0.7549295774647887,
+        0.7816836262719704,
+        0.715046604527297,
+        0.7022538552787663,
+        0.7234611953612846
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.1_B0.9_CI0.7549.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.1_B0.9_CI0.7817.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.1_B0.9_CI0.7150.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.1_B0.9_CI0.7023.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.1_B0.9_CI0.7235.pth"
+      ]
+    },
+    {
+      "alpha": 0.6,
+      "beta": 0.7,
+      "mean_ci": 0.735417982196171,
+      "std_ci": 0.02932037055873109,
+      "fold_cis": [
+        0.7342723004694836,
+        0.7909343200740055,
+        0.7190412782956058,
+        0.7058125741399762,
+        0.7270294380017841
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.6_B0.7_CI0.7343.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.6_B0.7_CI0.7909.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.6_B0.7_CI0.7190.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.6_B0.7_CI0.7058.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.6_B0.7_CI0.7270.pth"
+      ]
+    },
+    {
+      "alpha": 0.7,
+      "beta": 0.1,
+      "mean_ci": 0.7352979113848729,
+      "std_ci": 0.027006493984035596,
+      "fold_cis": [
+        0.7492957746478873,
+        0.7816836262719704,
+        0.7123834886817576,
+        0.7105575326215896,
+        0.7225691347011597
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.7_B0.1_CI0.7493.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.7_B0.1_CI0.7817.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.7_B0.1_CI0.7124.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.7_B0.1_CI0.7106.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.7_B0.1_CI0.7226.pth"
+      ]
+    },
+    {
+      "alpha": 0.4,
+      "beta": 0.9,
+      "mean_ci": 0.7352329683201304,
+      "std_ci": 0.02897030314873988,
+      "fold_cis": [
+        0.7342723004694836,
+        0.790009250693802,
+        0.7190412782956058,
+        0.7058125741399762,
+        0.7270294380017841
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.4_B0.9_CI0.7343.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.4_B0.9_CI0.7900.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.4_B0.9_CI0.7190.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.4_B0.9_CI0.7058.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.4_B0.9_CI0.7270.pth"
+      ]
+    },
+    {
+      "alpha": 0.5,
+      "beta": 0.8,
+      "mean_ci": 0.7352303550931631,
+      "std_ci": 0.028873219467144964,
+      "fold_cis": [
+        0.7342723004694836,
+        0.790009250693802,
+        0.7217043941411452,
+        0.7058125741399762,
+        0.7243532560214094
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.5_B0.8_CI0.7343.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.5_B0.8_CI0.7900.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.5_B0.8_CI0.7217.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.5_B0.8_CI0.7058.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.5_B0.8_CI0.7244.pth"
+      ]
+    },
+    {
+      "alpha": 0.7,
+      "beta": 0.6,
+      "mean_ci": 0.7351424556406343,
+      "std_ci": 0.02893945174230132,
+      "fold_cis": [
+        0.7342723004694836,
+        0.790009250693802,
+        0.7203728362183754,
+        0.7058125741399762,
+        0.7252453166815344
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.7_B0.6_CI0.7343.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.7_B0.6_CI0.7900.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.7_B0.6_CI0.7204.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.7_B0.6_CI0.7058.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.7_B0.6_CI0.7252.pth"
+      ]
+    },
+    {
+      "alpha": 0.1,
+      "beta": 0.7,
+      "mean_ci": 0.735117471630211,
+      "std_ci": 0.025392591302716164,
+      "fold_cis": [
+        0.748356807511737,
+        0.7789084181313598,
+        0.7137150466045273,
+        0.7129300118623962,
+        0.7216770740410348
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.1_B0.7_CI0.7484.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.1_B0.7_CI0.7789.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.1_B0.7_CI0.7137.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.1_B0.7_CI0.7129.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.1_B0.7_CI0.7217.pth"
+      ]
+    },
+    {
+      "alpha": 0.3,
+      "beta": 0.5,
+      "mean_ci": 0.7349763531486423,
+      "std_ci": 0.025249986045670948,
+      "fold_cis": [
+        0.7455399061032864,
+        0.7798334875115633,
+        0.7137150466045273,
+        0.7141162514827996,
+        0.7216770740410348
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.3_B0.5_CI0.7455.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.3_B0.5_CI0.7798.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.3_B0.5_CI0.7137.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.3_B0.5_CI0.7141.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.3_B0.5_CI0.7217.pth"
+      ]
+    },
+    {
+      "alpha": 0.8,
+      "beta": 0.8,
+      "mean_ci": 0.734885318262742,
+      "std_ci": 0.031923285555688075,
+      "fold_cis": [
+        0.7596244131455399,
+        0.7798334875115633,
+        0.7217043941411452,
+        0.6880189798339265,
+        0.7252453166815344
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.8_B0.8_CI0.7596.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.8_B0.8_CI0.7798.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.8_B0.8_CI0.7217.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.8_B0.8_CI0.6880.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.8_B0.8_CI0.7252.pth"
+      ]
+    },
+    {
+      "alpha": 0.3,
+      "beta": 0.6,
+      "mean_ci": 0.734787568716991,
+      "std_ci": 0.026643770098176922,
+      "fold_cis": [
+        0.7276995305164319,
+        0.7872340425531915,
+        0.7163781624500666,
+        0.7164887307236062,
+        0.7261373773416593
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.3_B0.6_CI0.7277.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.3_B0.6_CI0.7872.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.3_B0.6_CI0.7164.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.3_B0.6_CI0.7165.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.3_B0.6_CI0.7261.pth"
+      ]
+    },
+    {
+      "alpha": 0.9,
+      "beta": 0.6,
+      "mean_ci": 0.7346945170842577,
+      "std_ci": 0.029449642265966955,
+      "fold_cis": [
+        0.739906103286385,
+        0.7890841813135985,
+        0.711051930758988,
+        0.708185053380783,
+        0.7252453166815344
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.9_B0.6_CI0.7399.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.9_B0.6_CI0.7891.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.9_B0.6_CI0.7111.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.9_B0.6_CI0.7082.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.9_B0.6_CI0.7252.pth"
+      ]
+    },
+    {
+      "alpha": 0.2,
+      "beta": 0.6,
+      "mean_ci": 0.734689650727711,
+      "std_ci": 0.025739954454622956,
+      "fold_cis": [
+        0.7464788732394366,
+        0.7798334875115633,
+        0.7137150466045273,
+        0.7117437722419929,
+        0.7216770740410348
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.2_B0.6_CI0.7465.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.2_B0.6_CI0.7798.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.2_B0.6_CI0.7137.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.2_B0.6_CI0.7117.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.2_B0.6_CI0.7217.pth"
+      ]
+    },
+    {
+      "alpha": 0.6,
+      "beta": 0.2,
+      "mean_ci": 0.7346878561575215,
+      "std_ci": 0.02681278159963198,
+      "fold_cis": [
+        0.748356807511737,
+        0.7807585568917669,
+        0.7123834886817576,
+        0.7093712930011863,
+        0.7225691347011597
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.6_B0.2_CI0.7484.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.6_B0.2_CI0.7808.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.6_B0.2_CI0.7124.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.6_B0.2_CI0.7094.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.6_B0.2_CI0.7226.pth"
+      ]
+    },
+    {
+      "alpha": 0.5,
+      "beta": 0.4,
+      "mean_ci": 0.734634983656943,
+      "std_ci": 0.024512935794422493,
+      "fold_cis": [
+        0.7276995305164319,
+        0.782608695652174,
+        0.7163781624500666,
+        0.7176749703440095,
+        0.7288135593220338
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.5_B0.4_CI0.7277.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.5_B0.4_CI0.7826.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.5_B0.4_CI0.7164.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.5_B0.4_CI0.7177.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.5_B0.4_CI0.7288.pth"
+      ]
+    },
+    {
+      "alpha": 0.7,
+      "beta": 0.2,
+      "mean_ci": 0.7346178420901726,
+      "std_ci": 0.027466955073173024,
+      "fold_cis": [
+        0.7276995305164319,
+        0.7890841813135985,
+        0.7190412782956058,
+        0.7200474495848161,
+        0.7172167707404103
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.7_B0.2_CI0.7277.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.7_B0.2_CI0.7891.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.7_B0.2_CI0.7190.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.7_B0.2_CI0.7200.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.7_B0.2_CI0.7172.pth"
+      ]
+    },
+    {
+      "alpha": 0.8,
+      "beta": 0.7,
+      "mean_ci": 0.7345095032082171,
+      "std_ci": 0.02910829203061379,
+      "fold_cis": [
+        0.739906103286385,
+        0.788159111933395,
+        0.711051930758988,
+        0.708185053380783,
+        0.7252453166815344
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.8_B0.7_CI0.7399.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.8_B0.7_CI0.7882.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.8_B0.7_CI0.7111.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.8_B0.7_CI0.7082.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.8_B0.7_CI0.7252.pth"
+      ]
+    },
+    {
+      "alpha": 0.1,
+      "beta": 0.4,
+      "mean_ci": 0.7345061856883017,
+      "std_ci": 0.02167745857915161,
+      "fold_cis": [
+        0.7427230046948357,
+        0.7724329324699353,
+        0.7177097203728362,
+        0.7117437722419929,
+        0.727921498661909
+      ],
+      "paths": [
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold0_A0.1_B0.4_CI0.7427.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold1_A0.1_B0.4_CI0.7724.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold2_A0.1_B0.4_CI0.7177.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold3_A0.1_B0.4_CI0.7117.pth",
+        "/home/public/NAS/public/ywenbin/MuHC-Net3/Cancer-LIHC/Best/result_CI/model_hgnn_v2/checkpoints/fold4_A0.1_B0.4_CI0.7279.pth"
+      ]
+    }
+  ],
+  "note": "CI_v2: 64\u7ef4emb\u878d\u5408, ModalityCausalGate, \u53ef\u6bd4\u8f83\u5bf9Distill, \u53cd\u4e8b\u5b9e\u56e0\u679c\u6548\u5e94"
+}
